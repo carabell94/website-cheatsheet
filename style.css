@@ -1,0 +1,271 @@
+
+.title {
+  padding-top: 20px;
+  font-family: sans-serif;
+}
+
+/* Color Section */
+.colors {
+  border: 3px solid grey;
+  padding: 10px 20px;
+  width: 1000px;
+  font-family: sans-serif;
+}
+
+.hex {
+  text-align: center;
+  padding: 10px;
+  display: inline-block;
+  justify-items: center;
+  width: 300px;
+}
+
+#palepink {
+  background-color:#fab0a7;
+  color: white;
+}
+
+#turquoise {
+  background-color:#05a8aa;
+  color: white;
+}
+
+#raspberry {
+  background-color:#8b0000;
+  color: white;
+}
+
+#pastelgreen {
+  background-color:#8fbc8f;
+  color: white;
+}
+
+#lightcoral {
+  background-color:#f08080;
+  color: white;
+}
+
+#pillowtalk {
+  background-color:#db7093;
+  color: white;
+}
+  
+/* Font Section */
+
+.fonts {
+  border: 3px solid grey;
+  padding: 10px 20px;
+  width: 1000px;
+  margin-top: 50px;
+}
+
+#fonttitle {
+   font-family: sans-serif; 
+}
+
+.inline {
+  display: flex;
+  float: left;
+}
+
+.arvo {
+  padding: 10px;
+  display: inline-block;
+  justify-items: center;
+  width: 500px;
+}
+
+#arvotitle {
+  font-family: 'Arvo', serif;
+  text-decoration: underline;
+}
+
+#arvonormal {
+  font-family: 'Arvo', serif;
+  font-weight: normal;
+}
+
+#arvobold {
+  font-family: 'Arvo', serif;
+  font-weight: bold;
+}
+
+#arvoitalic {
+  font-family: 'Arvo', serif;
+  font-style: italic;
+}
+
+.montserrat {
+  padding: 10px;
+  display: inline-block;
+  justify-items: center;
+  width: 500px;
+}
+
+#montserrattitle {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
+}
+
+#montserratnormal {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+#montserratbold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+#montserratitalic {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+}
+
+.opensans {
+  padding: 10px;
+  display: inline-block;
+  justify-items: center;
+  width: 500px;
+}
+
+#opensanstitle {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: underline;
+}
+
+#opensansnormal {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+
+#opensansbold {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+#opensansitalic {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+}
+
+.exo {
+  padding: 10px;
+  display: inline-block;
+  justify-items: center;
+  width: 500px;
+}
+
+#exotitle {
+  font-family: 'Exo', sans-serif;
+  text-decoration: underline;
+}
+
+#exonormal {
+  font-family: 'Exo', sans-serif;
+  font-weight: normal;
+}
+
+#exobold {
+  font-family: 'Exo', sans-serif;
+  font-weight: bold;
+}
+
+#exoitalic {
+  font-family: 'Exo', sans-serif;
+  font-style: italic;
+}
+
+/* Text Styles Section */
+
+.textstyles {
+  border: 3px solid grey;
+  padding: 10px 20px;
+  width: 1000px;
+  margin-top: 50px;
+}
+
+.textstylestitle {
+  font-family: sans-serif;
+}
+
+.h1 {
+ font-family: sans-serif;
+ font-weight: 700;
+ font-size: 26px;
+ border: 2px solid lightgrey;
+ display: inline;
+}
+
+.h2 {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border: 2px solid lightgrey;
+  display: inline;
+}
+
+.p {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  border: 2px solid lightgrey;
+  display: inline;
+}
+
+.text {
+  font-family: sans-serif;
+}
+
+/* Other Section */
+
+.other {
+  border: 3px solid grey;
+  padding: 10px 20px 30px 20px;
+  width: 1000px;
+  margin-top: 50px;
+}
+
+.othertitle {
+  font-family: sans-serif;
+}
+
+.fbbtntitle {
+  font-family: sans-serif;
+}
+
+li {
+  font-family: sans-serif;
+}
+
+#html {
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
+#css {
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
+.btn-gradient {
+  color: #345693;
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-family: sans-serif;
+  font: 'lucida grande';
+  font-weight: bold;
+  background: #e7e8f1;
+  transition: background 0.3s ease;
+  border: 2px solid #bdc4da;
+  text-decoration: none
+
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(#e7e8f1, white);
+}
+
+.btn-gradient img {
+  size: 10px
+}
