@@ -103,6 +103,18 @@
             <li>Add 'scroll-snap-type: y mandatory' to your HTML element</li>
             <li>To your section class, add 'height: 100vh;', 'scroll-snap-align: start;' and optionally 'position: relative;'</li>
           </ol>
+          <p id="css"> JS: </p>
+          <p id="js">const gra = function(min, max) {
+              return Math.random() * (max - min) + min;
+              }
+            const init = function(){
+              let items = document.querySelectorAll('.section');
+              for (let i = 0; i < items.length; i++){
+                items[i].style.background = randomColor({luminosity: 'light'});
+              }
+            cssScrollSnapPolyfill()
+            }
+            init();</p>
         </div>
       </div>
   </body>
